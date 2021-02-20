@@ -9,6 +9,23 @@
 - Mongo DB
 - Node Schedule
 
+### Запуск проекта
+1. Перейти в корневой каталог проекта
+2. В командной строке выполнить (однократно для установки): 
+```sh
+npm install
+```
+3. Переименовать .env.sample в .env (в папке client и папке server) и заполнить поля:
+```sh
+BOT_TOKEN= token to access the HTTP bot API
+WETHER_API_KEY= OpenWeather API key
+DB= mongoDB url
+```
+4. Запуск проекта:
+```sh
+npm start
+```
+
 ### Быстрый обзор
 
 ![gif](readme-assets/preview.gif)
